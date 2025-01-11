@@ -1,0 +1,27 @@
+{% extends "model.html" %}
+{% block head %}
+<div class = "produto">
+    <img src="../static/gato1.png">
+    <p>Gato</p>
+    <p>R$1750,00</p>
+    <a href="{{url_for('produto1')}}">Ver informações</a>
+</div>
+<div class = "produto">
+    <img src="./static/gato2.png">
+    <p>Gato</p>
+    <p>R$750,00</p>
+    <a href="{{url_for('produto2')}}">Ver informações</a>    
+</div>
+<div class = "produto">
+    <img src="./static/gato3.png">
+    <p>Gato</p>
+    <p>R$2750,00</p>
+    <a href="{{url_for('produto3')}}">Ver informações</a>    
+</div>
+<div class = "produto">
+    <img src="../static/gato4.png">
+    <p>Gato</p>
+    <p>R$3750,00</p>
+    <a href="{{url_for('produto4')}}">Ver informações</a>
+</div>
+{% endblock %}
